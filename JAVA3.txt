@@ -1,0 +1,221 @@
+question 1
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int balance = sc.nextInt();
+
+        if (balance < 1000) {
+            System.out.println("Low Balance Alert");
+        }
+    }
+}
+
+question 2
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int score = sc.nextInt();
+
+        if (score % 2 != 0) {
+            System.out.println("Bonus Unlocked");
+        }
+    }
+}
+
+question 3
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int temperature = sc.nextInt();
+
+        if (temperature >= 30) {
+            System.out.println("Warm Day");
+        } else {
+            System.out.println("Cool Day");
+        }
+
+        sc.close();
+    }
+}
+
+question 4
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int number = sc.nextInt();
+
+        if (Math.abs(number) % 10 == 7) {
+            System.out.println("Lucky Ending");
+        } else {
+            System.out.println("Not a Lucky Ending");
+        }
+
+        sc.close();
+    }
+}
+
+question 5
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int amount = sc.nextInt();
+
+        if (amount >= 500) {
+            System.out.println("Reusable Bag Available");
+        } else {
+            System.out.println("No Free Bag");
+        }
+
+        sc.close();
+    }
+}
+
+question 6 
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int mark = sc.nextInt();
+
+        if (mark < 0 || mark > 100) {
+            System.out.println("Invalid Mark");
+        } else if (mark >= 90) {
+            System.out.println("Grade A");
+        } else if (mark >= 75) {
+            System.out.println("Grade B");
+        } else if (mark >= 60) {
+            System.out.println("Grade C");
+        } else if (mark >= 35) {
+            System.out.println("Grade D");
+        } else {
+            System.out.println("Fail");
+        }
+
+        sc.close();
+    }
+}
+
+question 7
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int units = sc.nextInt();
+
+        if (units < 0) {
+            System.out.println("Invalid Units");
+        } else if (units < 100) {
+            System.out.println("Low Consumption");
+        } else if (units < 200) {
+            System.out.println("Medium Consumption");
+        } else if (units < 300) {
+            System.out.println("High Consumption");
+        } else {
+            System.out.println("Very High Consumption");
+        }
+
+        sc.close();
+    }
+}
+
+questin 8
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int experience = sc.nextInt();
+
+        if (experience < 0) {
+            System.out.println("Invalid Experience");
+        } else if (experience == 0) {
+            System.out.println("Fresher");
+        } else if (experience <= 2) {
+            System.out.println("Junior");
+        } else if (experience <= 5) {
+            System.out.println("Intermediate");
+        } else {
+            System.out.println("Senior");
+        }
+
+        sc.close();
+    }
+}
+
+questin 9
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int amount = sc.nextInt();
+
+        if (amount < 0) {
+            System.out.println("Invalid Order");
+        } else if (amount >= 2000) {
+            System.out.println("Free Delivery");
+        } else if (amount >= 1000) {
+            System.out.println("Delivery Charge: Rs. 30");
+        } else {
+            System.out.println("Delivery Charge: Rs. 60");
+        }
+
+        sc.close();
+    }
+}
+
+question 10
+
+import java.util.Scanner;
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        int hour = sc.nextInt();
+
+        if (hour < 0 || hour > 23) {
+            System.out.println("Invalid Hour");
+        } else if (hour >= 5 && hour <= 11) {
+            System.out.println("Good Morning");
+        } else if (hour >= 12 && hour <= 16) {
+            System.out.println("Good Afternoon");
+        } else if (hour >= 17 && hour <= 20) {
+            System.out.println("Good Evening");
+        } else {
+            System.out.println("Good Night");
+        }
+
+        sc.close();
+    }
+}
